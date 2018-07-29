@@ -1,0 +1,101 @@
+<html>
+<head>
+<!-- los metas son texto que siempre se coloca para la realizacion de las busquedas en la web, esto no sale en la pagina como tal-->
+<meta name="description" content="Esta es mi primera pagina creada en HTML">
+<meta name="keywords" content="mi primera pagina, mi primera pagina en html, creacion de paginas">
+<meta charset="UTF-8">
+
+<title>Mi primera pagina web! </title>
+</head>
+
+<body bgcolor="white" text="black">
+    <center>
+    <table width="950"><tr><td><!--950 pixeles medida de la pagina-->
+
+    <img src="images/logo.jpeg" border="0" alt="logo de la pagina"> <!--el border se usa para quitar el bordo de las imagenes que en algunos sistemas operativos se pueden ver-->
+
+    <a href="index.html">
+    <img src="menu/inicio.jpg" border="0" alt="Boton de inicio" height="60px"></a>
+    <a href="productos.html">
+    <img src="menu/productos.jpg" border="0" alt="Boton servicios" height="60px"></a>
+    <a href="contacto.html">
+    <img src="menu/contacto.jpg" border="0" alt="Boton ir al contacto" height="60px"></a>
+    <a href="nosotros.html">
+    <img src="menu/nosotros.jpg" border="0" alt="boton nosotros" height="60px"></a>
+
+    <center>
+    <p><img src="images/contact.jpeg" alt="Banner central de la pagina" height="200px"></p>
+    </center>
+  
+<center>
+   <table border="0" width="90%" bgcolor="#fff7db">
+    <tr>
+        <td colspan="2">
+         <center>
+         <h1><font color="red" face="arial"> ¿Cómo nos contactas?</font></h1>
+         </center>
+         </td>
+   
+     </tr>
+   
+     <tr>
+        <td>
+        <p>Si tienes comentarios, quejas o reclamos, no dudes en comunicarte con nosotros a traves de los diferentes medios que tenemos dispuestos para ello</p>
+    
+        <form>
+            <fieldset>
+              <legend>Informacion de contacto</legend>  
+            <label>Seleccione el pais:</label>
+            <select>
+                <option value="Colombia">Colombia</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brazil">Brazil</option>
+            </select><br>
+            <label for="nombre">Nombre completo:</label>
+            <input id="nombre" type="text" placeholder="Escriba su nombre">
+            <br>
+            <label for="telefono">Numero telefonico:</label>
+            <input id="telefono" type="text" placeholder="Escriba su telefono" maxlength="10">
+            <br>
+            <label for="correo">Dirección de correo electronico:</label>
+            <input id="correo" type="email" placeholder="Escriba su correo">
+            <br>
+            <label for="comentario">Deje su comentario:</label><br>
+            <textarea name="message" rows="3" cols="30">Escriba su comentario</textarea>
+            <br><br>
+            <label>Desea que conservemos sus datos:</label>
+            <input type="radio" name="acepta" value="si" checked>Si
+            <input type="radio" name="rechaza" value="no">No
+
+            <input type="submit"  value="Enviar">
+
+        </fieldset>
+        </form>
+        
+     </td>
+        <td>
+        <center><img src="images/contact2.jpeg"></center>
+        </td>
+    </tr>
+
+</table>
+</center>
+
+<center>
+<a href="index.html">Inicio</a> -
+<a href="nosotros.html">Nosotros</a> -
+<a href="productos.html">Productos</a> -
+<a href="contacto.html">Contactanos</a>
+<br>Copyright 2017/ Mandanos un mensaje via mail a<!--usamos br para hacer salto de linea-->
+<a href="mailto:info@web.com">info@web.com</a>
+</center>
+
+<a href="http://www.google.com">Presiona para ir a Google</a>
+<a href="http://www.facebook.com"><img src="images/facebook.png" width="5%"></a>
+
+</table></tr></td>
+</center>
+
+</body>
+</html>
